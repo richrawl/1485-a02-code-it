@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body{
-	background-color:#FCF200;}
+section id="yellow"{
+	background-color:yellow}
 	
