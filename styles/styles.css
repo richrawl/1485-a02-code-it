@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-section id="yellow"{
-	background-color:yellow}
-	
+.wrapper{
+	max width: 1170 px;
+	margin: 0 auto;
+	background-color:#FFEF00}
