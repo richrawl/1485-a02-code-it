@@ -1,7 +1,77 @@
 @charset "UTF-8";
 /* CSS Document */
 
+*, *:before, *:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;}
 .wrapper{
 	max width: 1170 px;
 	margin: 0 auto;
-	background-color:#FFEF00}
+	background-color:#FFEF00;}
+	
+.column-intro{
+	width:30%;
+	float:left;}	
+	
+.column-features{
+	margin: 1%;
+	width:31%;
+	float:left;}
+
+.column-people{
+	width:18%;
+	float:left;
+	}
+	
+.form{
+	width:50%;}
+	
+.column-in-touch{
+	float: left}
+	
+$.fn.equalizeHeights= function(){
+	return this.height( Math.max.apply(this, $(this) .map(function(i,e){return $(e).height() }).get() ) )}
+	
+$('.form,.phone')
+		
+	
+.column-footer{
+	width:25%;
+	float:left;}
+	
+.column-screenshots{
+	-webkit-box-sizing:border-box;	
+	width:18%;
+	padding:1%;
+	float:left;
+	align:center;}
+	
+.hand{
+	text-align:right
+	align-content:right}
+
+.column-screenshots img{
+	width:100%;}
+
+.yellow_box{
+	background-color:#FFF85D;
+	padding:5 5 5 5}
+	
+.grey_box{
+	background-color:#CDCDCD;
+	padding:2 2 2 2}
+	
+#screenshots{
+	clear:both;
+	background-color:#E4E4E4;
+	overflow: auto;}
+#introducing_umbrella{
+	clear:both;}
+	
+#quote{
+	clear:both;}
+	
+#amazing_features{
+	clear:both;}
+	
+	

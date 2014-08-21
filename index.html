@@ -17,6 +17,7 @@
 </header>
 
 <h2>Introducing <b>Umbrella</b></h2>
+<div class="column-intro">
 <p>Made to modify and use anywhere.</p>
 <ul>
 <li>sed ut perspictiatis unde omnis
@@ -28,14 +29,18 @@ doloremque laudantium
 </li>
 </ul>
 <a href=""><!--cloud logo-->Download</a>
-<a href=""><!--eye logo-->View Gallery</a></div>
+<a href=""><!--eye logo-->View Gallery</a>
+</div>
+
+<div class="column-intro"><img src="images/photo_1.png" width:"10%" align=right;></div>
+</div>
 </section>
-<section id=amazing_features>
 
-
-<div class=wrapper>
+<section id="amazing_features">
+<div class="wrapper">
 <h2>Amazing Features</h2>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
+<div class="column-features">
 <dl>
 <dt><!--tool icon-->Accusan Timar
 </dt>
@@ -50,9 +55,13 @@ doloremque laudantium
 <dd>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
 </dd>
 </dl>
-<img src="images/photo_2.png" alt="iphone">
-<dl>
+</div>
+<div class="column-features">
+  <p><img src="images/photo_2.png" width="75%"></p>
+</div>
 
+<div class="column-features">
+<dl>
 <dt><!--avatar icon-->Accusan Timar
 </dt>
 <dd>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
@@ -67,19 +76,31 @@ doloremque laudantium
 </dd>
 </dl>
 </div>
+</div>
+
 </section>
 
 <section id="screenshots">
 <div class="wrapper">
 <h2>screenshots gallery</h2>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
-<img src="images/photo_3.png" alt="light yellow phone screen" width="18%">
-<img src="images/photo_4.png" alt="yellow phone screen" width="18%">
-<img src="images/photo_4.png" alt="yellow phone screen" width="18%">
-<img src="images/photo_4.png" alt="yellow phone screen" width="18%">
-<img src="images/photo_3.png" alt="light yellow phone screen" width="18%">
-</section>
+<div class="column-screenshots">
+<img src="images/photo_3.png" alt="light yellow phone screen">
 </div>
+<div class="column-screenshots">
+<img src="images/photo_4.png" alt="yellow phone screen">
+</div>
+<div class="column-screenshots">
+<img src="images/photo_4.png" alt="yellow phone screen">
+</div>
+<div class="column-screenshots">
+<img src="images/photo_4.png" alt="yellow phone screen">
+</div>
+<div class="column-screenshots">
+<img src="images/photo_3.png" alt="light yellow phone screen">
+</div>
+</div>
+</section>
 
 <section id="show_reel">
 <div class="wrapper">
@@ -94,28 +115,42 @@ doloremque laudantium
 </h2>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
 
-<div>sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.<!--twitter,facebook,googleplus--></div>
+<div class="column-people">
+<div class="yellow_box">
+sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.<!--twitter,facebook,googleplus--></div>
 <div>
 <p>Jonh Doe eh</p>
 <p>Lead Designer</p>
 </div>
+</div>
 
-
+<div class="column-people">
+<div class="grey_box"></div>
 <div>
 <p>Amanda Fenrnicas</p>
 <p>Lead Developer</p>
 </div>
+</div>
 
+<div class="column-people">
+<div class="grey_box">  </div>
 <div>
 <p>Hamberg Rodny</p>
 <p>Artist</p>
 </div>
+</div>
+</div>
 
+<div class="column-people">
+<div class="grey_box">  </div>
 <div>
 <p>Jessica Leonardo</p>
 <p>Photographer</p>
 </div>
 </div>
+
+
+
 </section>
 
 
@@ -146,6 +181,11 @@ doloremque laudantium
 <div class="wrapper">
 <h2>get in touch</h2>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+
+</div>
+<div class=column-in-touch; class=phone>
+<img src="images/photo_2.png" height="136"; align="right">
+</div><div class="form">
 <h3>Say hello!</h3>
 <form>
 name:<input name="name"><br>
@@ -154,19 +194,22 @@ message:<input  name="message">
 <input type="submit" value="Send Message">
 </form>
 </div>
+
+</div>
 </section>
 
 
 <footer>
 <div class="wrapper">
-<div style='width:20%; float:left; clear:both;'>
+
+<div class="column-footer">
 <!--umbrella logo-->
 <h3>Umbrella.</h3>
 <p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
 consequat.</p>
 </div>
 
-<div style='width:20%; float:left; clear:both;'>
+<div class="column-footer">
 <h3>Subscribe</h3>
 <form>
 email:<input type="email" name="email">
@@ -176,7 +219,7 @@ email:<input type="email" name="email">
 <p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 </div>
 
-<div style='width:20%; float:left; clear:both;'>
+<div class="column-footer">
 <h3>Explore</h3>
 <ul>
 <li>Envato</li>
@@ -189,7 +232,7 @@ email:<input type="email" name="email">
 <li>Yahoo</li>
 </ul>
 </div>
-<div style='width:20%; float:left; clear:both;'>
+<div class="column-footer">
 <p>Created with <!--heart--> by <u>themecurve</u>, exclusive for kreativeshowcase</p>
 
 <p>&copy; 2014 Umbrella. All Rights Reserved.</p>
