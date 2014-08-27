@@ -1,9 +1,14 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body, h1, h2, nav, header,ul, li{
+	margin:0;
+	padding:0;}
+
 *, *:before, *:after {
 	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;}
+	-moz-box-sizing:border-box;
+	box-sizing:border-box}
 .wrapper{
 	max width: 1170 px;
 	margin: 0 auto;
@@ -12,6 +17,11 @@
 .column-intro{
 	width:30%;
 	float:left;}	
+	
+.quotation-marks{
+	font:	Georgia,Constantia, "Lucida Bright", "DejaVu Serif", serif;
+	text-align:center;
+	font-size}
 	
 .column-features{
 	margin: 1%;
@@ -64,8 +74,13 @@ footer {
 	clear:both;
 	background-color:#E4E4E4;
 	overflow: auto;}
+	
 #introducing_umbrella{
-	clear:both;}
+	clear:both;
+	background:#FFE500
+	background-image:url(/images/background.png)
+	no-repeat center;background-height:100%;
+	min-height:780px;}
 	
 #quote{
 	clear:both;}
@@ -75,7 +90,18 @@ footer {
 	
 header{
 	position:fixed;
-	background-color:white;}
+	background-color:white;
+	overflow:auto;
+	top:30px;
+	width:100%;
+	max-width:1170px;
+	margin:0auto;
+	z-index:1;
+	clear:both;}
 	
+.alignleft{
+	float:left;}
+.alignright{
+	float:right;}
 	
 	
