@@ -6,7 +6,6 @@
 <link href="styles/styles.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="pe-icon-7-stroke/css/pe-icon-7-stroke.css">
 
-<!-- Optional - Adds useful class to manipulate icon font display -->
 <link rel="stylesheet" href="pe-icon-7-stroke/css/helper.css">
 
 </head>
@@ -17,7 +16,7 @@
 <header>
 
 <p class="alignleft">
-<!--logo--><i class="pe-7s-umbrella"></i>Umbrella.</p>
+<i class="pe-7s-umbrella"></i>Umbrella.</p>
 <p class="alignright"><a href="#C1">Home</a>
 <a href="#C2">Features</a>
 <a href="#C3">gallery</a>
@@ -39,11 +38,12 @@
 doloremque laudantium
 </li>
 </ul>
-<a href=""><i class="pe-7s-cloud-download"></i>Download</a>
-<a href=""><i class="pe-7s-look"></i>View Gallery</a>
+<a class="button"  href=""><i class="pe-7s-cloud-download"></i>Download</a>
+<a class="button" href=""><i class="pe-7s-look"></i>View Gallery</a>
 </div>
 
-<div class="column-intro"><img src="images/photo_1.png" width:"10%" align=right;></div>
+<img src="images/photo_1.png"
+class="home-image">
 </div>
 </section>
 
@@ -52,21 +52,20 @@ doloremque laudantium
 <h2><a id="C2">Amazing Features</h2>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
 
-<dl>
-<dt><div class="featured-content">
-</dd></div>
+
 
 <div class="column-features">
-<div class="featured-content"><div class="feature-details">
- <i class="pe-7s-tools">
+ 
+    <div class="feature-details">
+  <span><i class="pe-7s-timer"></i></span>
   <div class="feature-content">
-    <h3></i>Accusan timar</h3>
+    <h3>Accusan timar</h3>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
   </div>
 </div>
 
 <div class="feature-details">
-  <span><i class="pe-7s-timer"></i></span>
+  <span><i class="pe-7s-tools"></i></span>
   <div class="feature-content">
     <h3>Accusan timar</h3>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
@@ -79,20 +78,20 @@ doloremque laudantium
     <h3>Accusan timar</h3>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
   </div>
+</div>
+    
+  </div>
   
 <div class="column-features">
   <p><img src="images/photo_2.png" width="75%"></p>
 </div>
 
+
 <div class="column-features">
-<div class="feature-content">
-    <h3><i class=pe-7s-paper-plane></i>Accusan timar</h3>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-  </div>
-</div>
 
-<div class="feature-details">
-  <i class=pe-7s-user></i>
+
+    <div class="feature-details">
+  <span><i class="pe-7s-paper-plane"></i></span>
   <div class="feature-content">
     <h3>Accusan timar</h3>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
@@ -100,12 +99,25 @@ doloremque laudantium
 </div>
 
 <div class="feature-details">
-  <i class=pe-7s-camera></i>
+  <span><i class="pe-7s-user"></i></span>
   <div class="feature-content">
     <h3>Accusan timar</h3>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
   </div>
+</div>
+
+<div class="feature-details">
+  <span><i class="pe-7s-camera"></i></span>
+  <div class="feature-content">
+    <h3>Accusan timar</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
   </div>
+</div>
+
+
+
+
+  
 </div>
 
 </div>
@@ -118,7 +130,7 @@ doloremque laudantium
 <h2><a id="C3">screenshots gallery</h2>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
 <div class="column-screenshots">
-<img src="images/photo_3.png" alt="light yellow phone screen">
+<img src="images/photo_3.png" alt="yellow phone screen">
 </div>
 <div class="column-screenshots">
 <img src="images/photo_4.png" alt="yellow phone screen">
@@ -130,7 +142,7 @@ doloremque laudantium
 <img src="images/photo_4.png" alt="yellow phone screen">
 </div>
 <div class="column-screenshots">
-<img src="images/photo_3.png" alt="light yellow phone screen">
+<img src="images/photo_3.png" alt="yellow phone screen">
 </div>
 </div>
 </section>
@@ -152,7 +164,7 @@ doloremque laudantium
 <div class="yellow_box">
 sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.<!--twitter,facebook,googleplus--></div>
 <div>
-<p>Jonh Doe eh</p>
+<p class="people">Jonh Doe eh</p>
 <p>Lead Designer</p>
 </div>
 </div>
@@ -160,7 +172,7 @@ sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui r
 <div class="column-people">
 <div class="grey_box"></div>
 <div>
-<p>Amanda Fenrnicas</p>
+<p class="people">Amanda Fenrnicas</p>
 <p>Lead Developer</p>
 </div>
 </div>
@@ -168,7 +180,7 @@ sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui r
 <div class="column-people">
 <div class="grey_box">  </div>
 <div>
-<p>Hamberg Rodny</p>
+<p class="people">Hamberg Rodny</p>
 <p>Artist</p>
 </div>
 </div>
@@ -177,7 +189,7 @@ sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui r
 <div class="column-people">
 <div class="grey_box">  </div>
 <div>
-<p>Jessica Leonardo</p>
+<p class="people">Jessica Leonardo</p>
 <p>Photographer</p>
 </div>
 </div>
@@ -202,13 +214,10 @@ sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui r
 
 <section id="featured_in">
 <div class="wrapper">
-<h2>featured in</h2>
-<!--the verge--><!--mashable-->
-<!--tnw-->
-<!--Behance-->
-<!--dribble-->
+
+<img class=featured src="images/featured_in.jpg">
 </div>
-</section>
+
 
 <section id="get_in_touch">
 <div class="wrapper">
@@ -221,11 +230,10 @@ sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui r
 </div><div class="form">
 <h3>Say hello!</h3>
 <form>
-name:<input name="name"><br>
-email:<input type="email" name="email"><br>
-message:<input  name="message">
-<i class="pe-7s-mail"></i><input type="submit" value="Send Message">
-</form>
+<input name="name", placeholder="name"><br>
+<input type="email", placeholder="email"><br>
+<input  name="message", placeholder="message">
+<button><i class="pe-7s-mail"></i> Send Message
 </div>
 
 </div>
@@ -245,7 +253,7 @@ consequat.</p>
 <div class="column-footer">
 <h3>Subscribe</h3>
 <form>
-email:<input type="email" name="email">
+<input type="email" name="email">
 <input type="submit" value="Subcribe">
 </form>
 

@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 body, h1, h2, nav, header,ul, li{
 	margin:0;
 	padding:0;}
@@ -10,13 +12,17 @@ body, h1, h2, nav, header,ul, li{
 	-moz-box-sizing:border-box;
 	box-sizing:border-box}
 .wrapper{
-	max width: 1170 px;
+	max-width: 1170px;
 	margin: 0 auto;
-	background-color:#FFEF00;}
+	
+	}
 	
 .column-intro{
-	width:30%;
+	width:60%;
 	float:left;}	
+	
+.people{
+	font:bold}
 	
 .quotation-marks{
 	font:	Georgia,Constantia, "Lucida Bright", "DejaVu Serif", serif;
@@ -24,13 +30,29 @@ body, h1, h2, nav, header,ul, li{
 	font-size}
 	
 .column-features{
-	margin: 1%;
+	margin: 0%;
 	width:31%;
 	float:left;}
+	
+.home-image{
+  position:absolute;
+  bottom:0;
+  right:0;
+  z-index:0;}
 
 .column-people{
 	width:18%;
 	float:left;
+	padding:20px;
+	margin:20px;
+	}
+	
+.yellow_box{
+	height:150px;
+	}
+	
+.grey_box{
+	height:150px;
 	}
 	
 .form{
@@ -77,11 +99,13 @@ footer {
 	
 #introducing_umbrella{
 	clear:both;
-	background:#FFE500
-	background-image:url(/images/background.png)
-	no-repeat center;background-height:100%;
-	min-height:780px;}
-	
+	background-image:url(../images/background.png);
+}
+
+#introducing_umbrella .wrapper {
+  position: relative;
+  min-height:780px;
+}
 #quote{
 	clear:both;}
 	
@@ -95,13 +119,59 @@ header{
 	top:30px;
 	width:100%;
 	max-width:1170px;
-	margin:0auto;
-	z-index:1;
-	clear:both;}
+	margin:0 auto;
+	z-index:1;}
 	
 .alignleft{
 	float:left;}
 .alignright{
 	float:right;}
+	
+	h3 {margin:0;}
+
+.feature-details {
+  padding:20px;
+  overflow:auto;
+  cursor:default;
+}
+
+.feature-details:hover {
+  background:#fbfbe9;
+}
+
+.feature-details span {
+  float:left;
+  font-size:30px;
+  line-height:30px;
+  width:15%;
+  margin-top:0;
+}
+
+.feature-content {
+  width:85%;
+  float:left;
+}
+	
+.button{
+	border: 3px solid #000000;
+	padding: 15px 30px;
+	text-decoration: none;
+	color:#000000;
+	font-size:22px;}
+	
+a.button:hover{
+	opacity:.5;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;}
+		
+input {
+	width:100%;
+	border:0;
+	border-bottom: 1px solid #ccc;}
+	
+.featured{
+	width:100%;}
 	
 	
