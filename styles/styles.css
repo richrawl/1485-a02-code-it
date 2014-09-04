@@ -7,9 +7,6 @@ body, h1, h2, nav, header,ul, li{
 	margin:0;
 	padding:0px;}
 	
-section{
-	padding-left:18%;
-	padding-right:18%;}
 	
 
 
@@ -184,13 +181,14 @@ input {
 	border:0;
 	border-bottom: 1px solid #ccc;}
 	
-.featured{
+.span{
 	width:100%;}
 	
-img #show_reel{
-	width:100%}
 
 
-#people_behind_app
+
+#people_behind_app {}
 	
+p{
+		text-align:center;}
 	
