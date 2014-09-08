@@ -3,16 +3,17 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-h2{
-	text-transform:uppercase;
-	text-align:center}
+
 
 body, h1, h2, nav, header,ul, li{
 	margin:0;
 	padding:0px;
 	font-family:'Open Sans', sans serif;}
 	
-	
+	h2{
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:90px;}
 
 
 *, *:before, *:after {
