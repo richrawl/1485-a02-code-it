@@ -37,7 +37,7 @@ body, h1, h2, nav, header,ul, li{
 	font:bold}
 	
 .quotation-marks{
-	font:times,serrif,;
+	font:"times,serrif";
 	text-align:center;
 	font-size:x-large}
 	
@@ -97,7 +97,7 @@ footer {
 .column-people{
 	width:18%;
 	float:left;
-	align:center;
+	
 	margin:20px;
 	}
 	
@@ -108,19 +108,18 @@ footer {
 	align:center;}
 	
 .hand{
-	text-align:right
-	align-content:right}
+	text-align:right;}
 
 .column-screenshots img{
 	width:100%;}
 
 .yellow_box{
 	background-color:#FFF85D;
-	padding:5 5 5 5}
+	padding:2 2 2 2;}
 	
 .grey_box{
 	background-color:#CDCDCD;
-	padding:2 2 2 2}
+	padding:2 2 2 2;}
 	
 #screenshots #people_behind_app{
 	clear:both;
@@ -184,6 +183,9 @@ header{
   float:left;
 }
 
+#screenshots{
+	background color:#D1D1D1;}
+	
 
 
 button {
@@ -212,9 +214,6 @@ a.button {
   color:#000;
   font-size:22px;
   
-
-		
-#
 		
 input{
 	width:100%;
@@ -222,6 +221,10 @@ input{
 	border-bottom: 1px solid #ccc;
 	padding 25px 0;
 	font-size:12px}
+	
+#get_in_touch{
+	border-bottom:2px solid #FCEE00
+	
 	
 input:focus{
 	outline:0;}
