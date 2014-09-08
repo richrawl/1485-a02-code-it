@@ -68,8 +68,10 @@ body, h1, h2, nav, header,ul, li{
 .form{
 	width:50%;
 	float:left;}
-input{
-	width:100%;}
+	
+
+
+	
 	
 .social{
 	width:10%;
@@ -219,7 +221,7 @@ a.button {
   padding: 15px 30px;
   text-decoration:none;
   color:#000;
-  font-size:22px;
+  font-size:22px;}
   
 		
 input{
@@ -229,12 +231,13 @@ input{
 	padding 25px 0;
 	font-size:12px}
 	
+input:focus{
+	outline:0;}
+	
 #get_in_touch{
 	border-bottom:2px solid #FCEE00
 	
-	
-input:focus{
-	outline:0;}
+
 	
 .span{
 	max-width:100%;}
