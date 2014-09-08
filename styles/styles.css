@@ -121,10 +121,16 @@ footer {
 	background-color:#CDCDCD;
 	padding:2 2 2 2;}
 	
-#screenshots #people_behind_app{
+#screenshots{
 	clear:both;
-	background-color:#fafafa;
+	background-color:#EFEFEF;
 	overflow: auto;}
+	
+#people_behind_app{
+	clear:both;
+	background-color:#EFEFEF;
+	overflow: auto;}
+	
 	
 #introducing_umbrella{
   background: #f8e514 url("../images/background.png") no-repeat center;
