@@ -107,8 +107,7 @@ footer {
 .column-screenshots{	
 	width:18%;
 	padding-right:10px;
-	float:left;
-	align:center;}
+	float:left;}
 	
 .hand{
 	text-align:right;}
@@ -118,11 +117,10 @@ footer {
 
 .yellow_box{
 	background-color:#FFF85D;
-	padding:2 2 2 2;}
+	padding:2px 2px 2px 2px;}
 	
 .grey_box{
-	background-color:#CDCDCD;
-	padding:2 2 2 2;}
+	background-color:#CDCDCD;}
 	
 #screenshots{
 	clear:both;
@@ -137,7 +135,7 @@ footer {
 	
 #introducing_umbrella{
   background: #f8e514 url("../images/background.png") no-repeat center;
-  background-height: 100%;
+ 
   min-height:780px;
 }
 
@@ -192,8 +190,6 @@ header{
   float:left;
 }
 
-#screenshots{
-	background color:#D1D1D1;}
 	
 
 
@@ -208,7 +204,6 @@ button {
   cursor:pointer;}
   
   a.button:hover{
-	 top-margin:30px;
 	opacity:.5;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -216,7 +211,6 @@ button {
 		transition: all .2s ease-in-out;}
 		
 a.button {
-  top-margin:30px;
   border: 3px solid #000;
   padding: 15px 30px;
   text-decoration:none;
@@ -228,7 +222,6 @@ input{
 	width:100%;
 	border:0;
 	border-bottom: 1px solid #ccc;
-	padding 25px 0;
 	font-size:12px}
 	
 input:focus{
@@ -253,6 +246,6 @@ p{
 
 		
 li .column-footer{
-	float:left
-	width:49%}
+	float:left;
+	width:49%;}
 	
